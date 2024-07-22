@@ -4,10 +4,12 @@ const server = http.createServer((req, res) => {
   if (req.url === "/") {
     res.write("<h1>Welcome to Homepage</h1>");
     res.end();
+    return
   }
   if (req.url === "/about") {
     res.write("<h1>This is the about page</h1>");
     res.end();
+    return
   }
   res.write(`
     <h1>Oops</h1>

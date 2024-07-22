@@ -5,7 +5,6 @@
 // const eventLoop = require("./event_loop");
 const asyncPatterns = require("./async_patterns");
 
-
 // console.log(module);
 // console.log(sayHi);
 
@@ -15,3 +14,4 @@ const asyncPatterns = require("./async_patterns");
 // console.log(http_module);
 // eventLoop();
 asyncPatterns();
+
