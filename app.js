@@ -2,7 +2,8 @@
 // const sayHi = require("./util");
 // const names = require("./first_module");
 // const http_module = require("./http_module");
-const eventLoop = require("./event_loop")
+// const eventLoop = require("./event_loop");
+const asyncPatterns = require("./async_patterns");
 
 
 // console.log(module);
@@ -12,4 +13,5 @@ const eventLoop = require("./event_loop")
 // sayHi(names.firstName);
 // sayHi(name.lastName);
 // console.log(http_module);
-eventLoop();
+// eventLoop();
+asyncPatterns();
