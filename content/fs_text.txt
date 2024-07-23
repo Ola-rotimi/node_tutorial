@@ -1,1 +1,1 @@
-Second message update
+The addition of 2 & 4 is: 6
